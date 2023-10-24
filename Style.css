@@ -1,6 +1,6 @@
 body {
-    background-color: antiquewhite;
-    color: green;
+    background-color: #dff5f1;
+    color: #316657;
 }
 nav ul {
     display: flex;
@@ -10,8 +10,8 @@ nav ul {
 }
 nav li {
     list-style: none;
-    background-color: green;
-    color: antiquewhite;
+    background-color: #316657;
+    color: #dff5f1;
     margin: 0;
     flex: 1;
     min-width: 200px;
@@ -22,13 +22,13 @@ nav a, nav a:visited {
     text-decoration: none;
     width: 100%;
     padding: 8px 0px;
-    color: antiquewhite;
+    color: #dff5f1;
 }
 nav a:hover {
-    color: green;
-    background-color: rgb(173, 230, 180);
+    color: #316657;
+    background-color: #9cd9c8;
 }
-nav a:hover nav a.active {
-    color: green;
-    background-color: rgb(173, 230, 180);
+nav a:hover, nav a.active {
+    color: #316657;
+    background-color: #9cd9c8;
 }
